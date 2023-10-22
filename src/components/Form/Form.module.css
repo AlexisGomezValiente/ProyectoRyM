@@ -71,3 +71,9 @@
   font-size: 15px;
   color: rgb(185, 8, 8);
 }
+
+@media (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+}

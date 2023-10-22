@@ -65,7 +65,7 @@ const About = () => {
           </NavLink>
 
           <NavLink
-            to={`https://www.instagram.com/alexisgomez_dev/`}
+            to={`https://www.instagram.com/alexisgomez.js/`}
             className={styles.social}
             target="_blank"
           >
