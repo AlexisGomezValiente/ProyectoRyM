@@ -65,8 +65,8 @@ function App() {
   };
 
   const [access, setAccess] = useState(false);
-  const EMAIL = "wilaleva2019@gmail.com";
-  const PASSWORD = "icia1357";
+  const EMAIL = "prueba@gmail.com";
+  const PASSWORD = "1234";
   const navigate = useNavigate();
 
   const login = (userData, errors) => {
