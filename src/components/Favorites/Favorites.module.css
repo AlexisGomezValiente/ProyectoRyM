@@ -1,0 +1,45 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(88, 86, 86, 0.5);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 15px 15px 15px;
+}
+
+.contSelect{
+    width: 800px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select{
+    background-color: rgb(10, 212, 212);
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 5px rgb(18, 16, 16);
+}
+
+.select option{
+    background-color: rgb(90, 255, 90);
+}
+
+@media (max-width: 768px) {
+    .contSelect{
+        width: 400px;
+    }
+}

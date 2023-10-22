@@ -1,0 +1,73 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: -8px 8px 5px rgba(68, 255, 0, 0.3);
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(
+      360deg
+    );
+  }
+}
+
+.img {
+  width: 300px;
+  margin-top: -60px;
+  animation: rotateImage 6s linear infinite;
+}
+
+.titulo {
+  color: white;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 17px;
+  outline: none;
+}
+
+.containerInputs {
+  width: auto;
+}
+
+.ingresar {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(90, 255, 90);
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.ingresar:hover {
+  background-color: rgb(10, 212, 212);
+}
+
+.error {
+  font-size: 15px;
+  color: rgb(185, 8, 8);
+}

@@ -1,0 +1,61 @@
+.container{
+    height: 100vh;
+    background: url('./img/fondo.png') fixed center/ cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainer{
+    background-color: rgba(93, 91, 91, 0.7);
+    width: 500px;
+    min-height: 550px;
+    border-radius: 20px;
+    padding: 15px 0 0 0;
+    margin: 0 20px
+}
+
+.img{
+    width: 250px;
+}
+
+.containerInfo{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+}
+
+.titulo{
+    color:white;
+    margin: 0;
+}
+
+.icon {
+    color:rgb(4, 125, 217);
+}
+
+.description {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    color: rgb(4, 125, 217);;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(90, 255, 90);
+    border-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(10, 212, 212);
+}
