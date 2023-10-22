@@ -66,7 +66,7 @@ function App() {
 
   const [access, setAccess] = useState(false);
   const EMAIL = "prueba@gmail.com";
-  const PASSWORD = "1234";
+  const PASSWORD = "1234567";
   const navigate = useNavigate();
 
   const login = (userData, errors) => {
